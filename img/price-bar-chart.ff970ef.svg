@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="332px" height="233px" viewBox="0 0 332 233" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>price-bar-chart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="price-bar-chart" transform="translate(0.000000, -2.000000)">
+            <polygon id="Path" fill="#EEF0F2" points="331.011 232.594 17.5943 232.594 17.5943 231.411 331.011 231.411"></polygon>
+            <polygon id="Path" fill="#EEF0F2" points="331.011 156.901 17.5943 156.901 17.5943 155.719 331.011 155.719"></polygon>
+            <polygon id="Path" fill="#EEF0F2" points="331.006 82.3907 17.5891 82.3907 17.5891 81.208 331.006 81.208"></polygon>
+            <polygon id="Path" fill="#EEF0F2" points="331.006 7.8798 17.5891 7.8797 17.5891 6.697 331.006 6.697"></polygon>
+            <path d="M36.5118,132.088 C36.5118,130.115 38.1109,128.516 40.0835,128.516 L41.2191,128.516 C43.1916,128.516 44.7907,130.115 44.7907,132.088 L44.7907,231.412 L36.5118,231.412 L36.5118,132.088 Z" id="Path" fill="#D00053" fill-rule="nonzero"></path>
+            <path d="M310.899,37.4701 C310.899,35.4975 312.498,33.8984 314.471,33.8984 L315.606,33.8984 C317.579,33.8984 319.178,35.4975 319.178,37.4701 L319.178,231.41 L310.899,231.41 L310.899,37.4701 Z" id="Path" fill="#D00053" fill-rule="nonzero"></path>
+            <path d="M276.6,140.368 C276.6,138.395 278.2,136.796 280.172,136.796 L281.308,136.796 C283.28,136.796 284.879,138.395 284.879,140.368 L284.879,231.412 L276.6,231.412 L276.6,140.368 Z" id="Path" fill="#D00053" fill-rule="nonzero"></path>
+            <path d="M242.302,65.8561 C242.302,63.8835 243.901,62.2844 245.874,62.2844 L247.009,62.2844 C248.982,62.2844 250.581,63.8835 250.581,65.8561 L250.581,231.411 L242.302,231.411 L242.302,65.8561 Z" id="Path" fill="#D00053" fill-rule="nonzero"></path>
+            <path d="M208.004,85.9635 C208.004,83.9909 209.603,82.3918 211.575,82.3918 L212.711,82.3918 C214.684,82.3918 216.283,83.9909 216.283,85.9635 L216.283,231.413 L208.004,231.413 L208.004,85.9635 Z" id="Path" fill="#D00053" fill-rule="nonzero"></path>
+            <path d="M173.706,132.087 C173.706,130.115 175.305,128.516 177.278,128.516 L178.413,128.516 C180.386,128.516 181.985,130.115 181.985,132.087 L181.985,231.411 L173.706,231.411 L173.706,132.087 Z" id="Path" fill="#D00053" fill-rule="nonzero"></path>
+            <path d="M139.408,142.733 C139.408,140.761 141.007,139.162 142.979,139.162 L144.115,139.162 C146.087,139.162 147.687,140.761 147.687,142.733 L147.687,231.413 L139.408,231.413 L139.408,142.733 Z" id="Path" fill="#D00053" fill-rule="nonzero"></path>
+            <path d="M105.108,35.1058 C105.108,33.1333 106.707,31.5342 108.68,31.5342 L109.815,31.5342 C111.788,31.5342 113.387,33.1333 113.387,35.1058 L113.387,231.412 L105.108,231.412 L105.108,35.1058 Z" id="Path" fill="#D00053" fill-rule="nonzero"></path>
+            <path d="M70.8153,173.481 C70.8153,171.509 72.4144,169.91 74.387,169.91 L75.5226,169.91 C77.4952,169.91 79.0943,171.509 79.0943,173.481 L79.0943,231.41 L70.8153,231.41 L70.8153,173.481 Z" id="Path" fill="#D00053" fill-rule="nonzero"></path>
+            <text id="1%" font-family="Helvetica-Bold, Helvetica" font-size="11" font-weight="bold" fill="#7A7A7A">
+                <tspan x="0.05078125" y="234">1%</tspan>
+            </text>
+            <text id="3%" font-family="Helvetica-Bold, Helvetica" font-size="11" font-weight="bold" fill="#7A7A7A">
+                <tspan x="0.05078125" y="160">3%</tspan>
+            </text>
+            <text id="4%" font-family="Helvetica-Bold, Helvetica" font-size="11" font-weight="bold" fill="#7A7A7A">
+                <tspan x="0.05078125" y="85">4%</tspan>
+            </text>
+            <text id="5%" font-family="Helvetica-Bold, Helvetica" font-size="11" font-weight="bold" fill="#7A7A7A">
+                <tspan x="0.05078125" y="10">5%</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
