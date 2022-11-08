@@ -20,18 +20,18 @@ document.addEventListener('DOMContentLoaded', function(){
 		mobileTopNav.classList.remove('sgr-menu-mobile--opened');
 	});
 
-	$('.dropdown-toggle').click(function() { 
-		$(this).next('.dropdown-menu').slideToggle();
+	$('.menu-item-has-children').click(function() { 
 		$(this).toggleClass('show');
-		$(this).next('.dropdown-menu').toggleClass('show');
-
+		$(this).siblings().removeClass('show'); 
+		$('.sub-menu').stop().slideUp();
+		$('.show .sub-menu').stop().slideDown();
 	});
 		
 	$(document).click(function(e){ 
 		var target = e.target; 
-		if (!$(target).is('.dropdown-toggle') && !$(target).parents().is('.dropdown-toggle')) {
-			$('.dropdown-menu').slideUp(); 
-			$('.dropdown-toggle').removeClass('show');
+		if (!$(target).is('.menu-item-has-children') && !$(target).parents().is('.menu-item-has-children')) {
+			$('.sub-menu').slideUp(); 
+			$('.menu-item-has-children').removeClass('show');
 		}
 	});
 });
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function(){
 $(document).ready(function(){
 	var target = window.location.hash,
 		target = target.replace('#', ''),
-		mobile = $(window).width() < 992;
+		mobile = $(window).width() < 768;
 
 	$('.members-slider').slick({
 		slidesToShow: 1,
@@ -55,39 +55,23 @@ $(document).ready(function(){
 		var slickTrackHeight = $(slickTrack).height();
 		$(this).find('.slick-slide').css('height', slickTrackHeight + 'px');
 	});
-    
-	if (mobile) {
-		$('.how-steps').slick({
-			slidesToShow: 3,
-            slidesToScroll: 1,
-            centerMode: false,
-            variableWidth: false,
-            dots: false,
-            arrows: true,
-            centerPadding: '60px',
-            responsive: [
-              {
-                breakpoint: 768,
-                settings: {
-                  centerPadding: '40px',
-                  slidesToShow: 2
-                }
-              },
-              {
-                breakpoint: 480,
-                settings: {
-                  centerPadding: '20px',
-                  slidesToShow: 1
-                }
-              }
-            ]
-		});
 
-		$('.how-steps').on('setPosition', function () {
-			$(this).find('.slick-slide').height('auto');
-			var slickTrack = $(this).find('.slick-track');
-			var slickTrackHeight = $(slickTrack).height();
-			$(this).find('.slick-slide').css('height', slickTrackHeight + 'px');
+	if(mobile) {
+		$('.autoplay').slick({
+			arrows: false,
+			centerMode: true,
+			centerPadding: '-30px',
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 2000,
+		});
+		$(".slick-prev").click(function () {
+			$(".autoplay").slick("slickPrev");
+		});
+	
+		$(".slick-next").click(function () {
+			$(".autoplay").slick("slickNext");
 		});
 	}
 });
