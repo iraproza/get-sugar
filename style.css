@@ -4982,7 +4982,6 @@ small {
     border-radius: 50%;
     background: linear-gradient(141.95deg, rgba(255, 190, 0, 0.15) 13.27%, rgba(223, 0, 89, 0.15) 89.3%);
     position: relative;
-    background-size: 400% 400%;
     -webkit-animation: gradient 15s ease infinite;
     animation: gradient 15s ease infinite;
 }
@@ -5070,7 +5069,6 @@ small {
     max-height: 400px;
     border-radius: 50%;
     background: linear-gradient(141.95deg, rgba(255, 190, 0, 0.15) 13.27%, rgba(223, 0, 89, 0.15) 89.3%);
-    background-size: 400% 400%;
     -webkit-animation: gradient 15s ease infinite;
     animation: gradient 15s ease infinite;
     position: relative;

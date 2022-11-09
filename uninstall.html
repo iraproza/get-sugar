@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Uninstall</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link data-n-head="ssr" rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/ie.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css" />
-    <title>How it works</title>
 </head>
 <body class="page-template page-template-page-templates page-template-about page-template-page-templatesabout-php page page-id-62 vsc-initialized trigger-position-right quick-links-position-left trigger-size-small trigger-color-blue">
     <div class="sgr-overlay"></div>
@@ -29,7 +30,7 @@
                                     <a href="#" aria-expanded="false">Products</a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="privacy.html">Amazon Price Graph</a>
+                                            <a href="amazon-price-graph.html">Amazon Price Graph</a>
                                         </li>
                                     </ul>
                                 </li>  
@@ -80,7 +81,7 @@
                                                     <a href="#" aria-expanded="false">Products</a>
                                                     <ul class="sub-menu">
                                                         <li>
-                                                            <a href="/privacy/">Amazon Price Graph</a>
+                                                            <a href="amazon-price-graph.html">Amazon Price Graph</a>
                                                         </li>
                                                     </ul>
                                                 </li>  
@@ -112,8 +113,8 @@
             </div>
         </div>
     </header>    
-    <div>
-        <div class="sgr-section-top pt-5 pb-5">
+    <main>
+        <div class="sgr-section-top">
             <div class="container pt-2 pb-2">
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
@@ -124,13 +125,64 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="sgr-footer">
+        <section class="uninstall">
+            <div class="container">
+                <div class="row pt-5 pb-5">
+                    <div class="col-lg-6 col-md-6 col-sm-5 align-items-center justify-content-center" >
+                        <img src="img/uninstall-logo.svg" alt="Uninstall" class="sgr-uninstall-logo">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-7">
+                        <div class="fs-5 font-weight-bold mt-5 mt-sm-0 mt-lg-0 mt-md-0 mt-xl-0"> 
+                            We'll Miss you! 
+                        </div>
+                        <p class="fc-additional mt-3" >
+                            If you don't mind, please tell us why so we can improve 
+                        </p>
+                        <form action="">
+                            <div class="wpcf7-form-control-wrap" data-name="checkbox-99">
+                                <div class="wpcf7-form-control wpcf7-checkbox">
+                                    <div class="wpcf7-list-item first">
+                                        <label>
+                                            <input type="radio" name="checkbox-99[]" value="" checked>
+                                            <span class="wpcf7-list-item-label">Didn't find what I was looking for</span>
+                                        </label>
+                                    </div>
+                                    <div class="wpcf7-list-item">
+                                        <label>
+                                            <input type="radio" name="checkbox-99[]" value="">
+                                            <span class="wpcf7-list-item-label">It crushed too often</span>
+                                        </label>
+                                    </div>
+                                    <div class="wpcf7-list-item">
+                                        <label>
+                                            <input type="radio" name="checkbox-99[]" value="">
+                                            <span class="wpcf7-list-item-label">Too many notifications</span>
+                                        </label>
+                                    </div>
+                                    <div class="wpcf7-list-item last">
+                                        <label>
+                                            <input type="radio" name="checkbox-99[]" value="">
+                                            <span class="wpcf7-list-item-label">Just cleaning up my browser</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-field">
+                                <button class="btn btn-standard arrow">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="sgr-footer">
         <div class="text-center sgr-social-wrapper">
             <div class="sgr-credentials">Copyright © 2022 Sugar
             </div>
         </div>
-    </div>
+    </footer>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/scripts.js"></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
+</body>
+</html>

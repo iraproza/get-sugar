@@ -1,0 +1,132 @@
+form {  
+    .form-fields {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 12px;
+        margin-top: 12px;
+    }
+
+    .button-field {
+        margin-top: 24px;
+    }
+    label {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+
+        & + span {
+            font-size: 14px;
+            padding-bottom: 4px;
+            color: #263640;
+
+        }
+    }
+    input[type="text"]  {
+        font-size: 13px;
+        padding: 7px 10px;
+        outline: none;
+        background: #ffffff;
+        border: 1px solid #c4cdd5;
+        box-sizing: border-box;
+        border-radius: 4px
+    }
+
+    input[type="text"]:focus {
+        border: 1px solid #d00053
+    }
+
+    input[type="text"].input--error {
+        border: 1px solid #d00053
+    }
+
+    input[type="radio"],
+    input[type='checkbox'] {
+        position: absolute;
+        left: -9999px;
+    }
+
+    .wpcf7-checkbox {
+        display: grid;
+        grid-gap: 12px;
+        font-size: 16px;
+    }
+
+    [type=radio]:checked+span,[type=radio]:not(:checked)+span {
+        position: relative;
+        padding-left: 30px;
+        cursor: pointer;
+        line-height: 20px;
+        display: inline-block;
+        color: #666;
+        padding-bottom: 0
+    }
+
+    [type=radio]:checked+span:before,[type=radio]:not(:checked)+span:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #c71c51;
+        border-radius: 100%;
+        background: #fff
+    }
+
+    [type=radio]:checked+span:after,[type=radio]:not(:checked)+span:after {
+        content: "";
+        width: 12px;
+        height: 12px;
+        background: #c61c52;
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        border-radius: 100%;
+        transition: all .2s ease
+    }
+
+    [type=radio]:not(:checked)+span:after {
+        opacity: 0;
+        transform: scale(0)
+    }
+
+    [type=radio]:checked+span:after {
+        opacity: 1;
+        transform: scale(1)
+    }
+
+    textarea {
+        resize: none;
+        font-size: 13px;
+        padding: 7px 10px;
+        outline: none;
+        background: #ffffff;
+        border: 1px solid #c4cdd5;
+        box-sizing: border-box;
+        border-radius: 4px;
+        min-height: 150px
+    }
+
+    textarea:focus {
+        border: 1px solid #d00053
+    }
+
+    textarea.textarea--error {
+        border: 1px solid #d00053
+    }
+
+
+
+    @media (min-width: 992px) {
+        .form-fields {
+            grid-template-columns: 1fr 1fr;
+
+            .col-g-2 {
+                grid-column: 1/3;
+            }
+        }
+    }
+}
+

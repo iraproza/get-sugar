@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 $(document).ready(function(){
+	
 	var target = window.location.hash,
 		target = target.replace('#', ''),
 		mobile = $(window).width() < 768;
